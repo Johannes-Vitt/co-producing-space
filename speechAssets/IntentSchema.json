@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "intent": "NewObjectIntent",
+      "slots": [
+        {
+          "name": "Object",
+          "type": "OBJECT_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "SelectObjectIntent",
+      "slots" : [
+        {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

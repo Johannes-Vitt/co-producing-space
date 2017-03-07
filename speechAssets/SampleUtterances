@@ -1,0 +1,6 @@
+NewObjectIntent print a  {Object}
+NewObjectIntent print an {Object}
+
+SelectObjectIntent print number {number}
+SelectObjectIntent number {number}
+SelectObjectIntent {number}
